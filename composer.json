@@ -18,9 +18,9 @@
 		}
 	},
 	"require": {
-		"php": ">=5.5",
+		"php": ">=7.1",
 		"composer/installers": "~1.0",
 		"hybridauth/hybridauth": "~2.8",
-		"paragonie/random_compat": "^2.0"
+		"paragonie/random_compat": "9.99.100"
 	}
 }
