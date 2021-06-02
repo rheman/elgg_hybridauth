@@ -1,0 +1,26 @@
+{
+	"name": "pessek/elgg_hybridauth",
+	"type": "elgg-plugin",
+	"description": "HybridAuth Integration for Elgg",
+	"keywords": [
+		"elgg", "plugin", "social", "connect", "auth", "login", "OpenId", "Twitter", "Facebook", "Google", "Hybridauth", "Yahoo"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0",
+		"hybridauth/hybridauth": "~2.8",
+		"paragonie/random_compat": "^2.0"
+	}
+}
